@@ -24,9 +24,26 @@ module.exports = class extends Generator {
       },
       {
         type: 'input',
+        name: 'gitUrl',
+        message: "please input your git address",
+        default: '',
+        filter: _.kebabCase
+      },
+      {
+        type: 'input',
         name: 'description',
         message: 'please input your description',
         default: ''
+      },
+      {
+        type    : 'confirm',
+        name    : 'router',
+        message : 'Would you like to use router, Has inner page?'
+      },
+      {
+        type    : 'confirm',
+        name    : 'vuex',
+        message : 'Would you like to use vuex'
       }
     ]).then(props => {
       this.props = props;
@@ -63,7 +80,8 @@ module.exports = class extends Generator {
         test: 'echo "Error: no test specified" && exit 1'
       },
       author: '',
-      license: 'ISC'
+      license: 'ISC',
+      repository: this.props.gitUrl
     }));
   }
 };

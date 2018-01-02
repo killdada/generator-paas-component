@@ -1,1 +1,1 @@
-export const NAMESPACE = 'demo-component';
+export const NAMESPACE = 'demo-example';

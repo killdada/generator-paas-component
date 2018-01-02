@@ -28,5 +28,14 @@ module.exports = class extends Generator {
       this.destinationPath('src/views/index.vue')
     );
     this.fs.copy(this.templatePath('designer'), this.destinationPath('designer'));
+
+    if (this.options.router) {
+      this.fs.copy(this.templatePath('routes'), this.destinationPath('src/routes'));
+    }
+
+    if (this.options.vuex) {
+      this.fs.copy(this.templatePath('store'), this.destinationPath('src/store'));
+    }
+
   }
 };
