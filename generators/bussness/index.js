@@ -10,6 +10,18 @@ module.exports = class extends Generator {
       defaults: '',
       desc: 'paas id and project name'
     });
+    this.option('routes', {
+      type: Boolean,
+      required: false,
+      defaults: '',
+      desc: 'has innerPage'
+    });
+    this.option('store', {
+      type: Boolean,
+      required: false,
+      defaults: '',
+      desc: 'use vuex'
+    });
   }
   Writing() {
     this.fs.copyTpl(this.templatePath('README.md'), this.destinationPath('README.md'), {
