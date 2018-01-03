@@ -10,13 +10,13 @@ module.exports = class extends Generator {
       defaults: '',
       desc: 'paas id and project name'
     });
-    this.option('routes', {
+    this.option('router', {
       type: Boolean,
       required: false,
       defaults: '',
       desc: 'has innerPage'
     });
-    this.option('store', {
+    this.option('vuex', {
       type: Boolean,
       required: false,
       defaults: '',

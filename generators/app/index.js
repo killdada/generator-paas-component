@@ -27,7 +27,6 @@ module.exports = class extends Generator {
         name: 'gitUrl',
         message: "please input your git address",
         default: '',
-        filter: _.kebabCase
       },
       {
         type: 'input',
