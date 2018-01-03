@@ -57,7 +57,9 @@ module.exports = class extends Generator {
     mkdirp(this.props.name);
     this.destinationRoot(this.destinationPath(this.props.name));
     this.composeWith(require.resolve('../bussness'), {
-      name: this.props.name
+      name: this.props.name,
+      router: this.props.router,
+      vuex: this.props.vuex,
     });
     this.composeWith(require.resolve('../git'), {
       name: this.props.name
