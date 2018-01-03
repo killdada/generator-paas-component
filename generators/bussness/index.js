@@ -42,11 +42,11 @@ module.exports = class extends Generator {
     this.fs.copy(this.templatePath('designer'), this.destinationPath('designer'));
 
     if (this.options.router) {
-      this.fs.copy(this.templatePath('routes'), this.destinationPath('src/routes'));
+      this.fs.copy(this.templatePath('src/routes'), this.destinationPath('src/routes'));
     }
 
     if (this.options.vuex) {
-      this.fs.copy(this.templatePath('store'), this.destinationPath('src/store'));
+      this.fs.copy(this.templatePath('src/store'), this.destinationPath('src/store'));
     }
 
   }

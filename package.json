@@ -77,6 +77,6 @@
       "prettier"
     ]
   },
-  "repository": "killdada/generator-paas-component",
+  "repository": "https://github.com/killdada/generator-paas-component.git",
   "license": "Apache-2.0"
 }
