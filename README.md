@@ -6,13 +6,13 @@ First, install [Yeoman](http://yeoman.io) and generator-paas-component using [np
 
 ```bash
 npm install -g yo
-npm install -g generator-paas-component
+npm install -g generator-paas-component-cli
 ```
 
 Then generate your new project:
 
 ```bash
-yo paas-component
+yo paas-component-cli
 ```
 
 ## Getting To Know Yeoman
@@ -22,16 +22,4 @@ yo paas-component
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
-## License
 
-Apache-2.0 © [cexoso]()
-
-
-[npm-image]: https://badge.fury.io/js/generator-paas-component.svg
-[npm-url]: https://npmjs.org/package/generator-paas-component
-[travis-image]: https://travis-ci.org/yunkeCN/generator-paas-component.svg?branch=master
-[travis-url]: https://travis-ci.org/yunkeCN/generator-paas-component
-[daviddm-image]: https://david-dm.org/yunkeCN/generator-paas-component.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/yunkeCN/generator-paas-component
-[coveralls-image]: https://coveralls.io/repos/yunkeCN/generator-paas-component/badge.svg
-[coveralls-url]: https://coveralls.io/r/yunkeCN/generator-paas-component

@@ -1,12 +1,10 @@
 {
-  "name": "generator-paas-biz-component",
-  "version": "0.0.6",
+  "name": "generator-paas-component-cli",
+  "version": "0.0.1",
   "description": "generator for paas,easy to create component",
-  "homepage": "https://github.com/yunkeCN/generator-paas-component",
+  "homepage": "",
   "author": {
-    "name": "cexoso",
-    "email": "285516193@qq.com",
-    "url": "http://cexoso.github.io/cexoso/"
+   
   },
   "files": [
     "generators"
